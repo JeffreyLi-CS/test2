@@ -1,0 +1,500 @@
+   45  make
+   46  ./runner -r traces/week1/short1.rep
+   47  ./runner -r -v -c traces/week1/short1.rep
+   48  python3 driver.py -w1
+   49  ./bump_test
+   50  cd ~/mm-lab-JeffreyLi-CS
+   51  make
+   52  ./runner -r traces/week1/short1.rep
+   53  ./runner -r -v -c traces/week1/short1.rep
+   54  python3 driver.py -w1
+   55  clear
+   56  pip3 install --user tabulate
+   57  python3 driver.py -w1
+   58  python3 driver.py -w1
+   59  clear
+   60  cd ~/mm-lab-JeffreyLi-CS
+   61  make clean
+   62  make
+   63  ./runner -r traces/week1/short1.rep -v -c
+   64  python3 driver.py -w1
+   65  clear
+   66  make
+   67  python3 driver.py -w1
+   68  ./runner -r -v -c traces/week1/short1.rep
+   69  make
+   70  python3 driver.py -w1
+   71  make
+   72  make
+   73  ./runner -r -v -c traces/week1/short1.rep
+   74  python3 driver.py -w1
+   75  make
+   76  python3 driver.py -w1
+   77  ./runner -r -v -c traces/week1/short1.rep
+   78  python3 driver.py -w1
+   79  make
+   80  python3 driver.py -w1
+   81  make
+   82  python3 driver.py -w1
+   83  CLEAR
+   84  clear
+   85  make
+   86  python3 driver.py -w1
+   87  git commit -m "week 1 check"
+   88  git add -A
+   89  git commit -m "week 1 check"
+   90  git push
+   91  python3 driver.py -w1
+   92  clear
+   93  git add -A
+   94  git commit -m "week1"
+   95  git push
+   96  make
+   97  python3 driver.py -w1
+   98  make
+   99  python3 driver.py -w1
+  100  clear
+  101  make clean
+  102  make
+  103  ./heap_runner
+  104  ./runner -f traces/week1/short1.rep
+  105  python3 driver.py -w1clear
+  106  clear
+  107  make clean
+  108  make
+  109  ./heap_runner
+  110  ./runner -f traces/week1/short1.rep
+  111  python3 driver.py -w1clear
+  112  clear
+  113  make clean
+  114  ./heap_runner
+  115  ./runner -f traces/week1/short1.rep
+  116  ./bump_test
+  117  python3 driver.py -w1clear
+  118  clear
+  119  make
+  120  clear
+  121  ./heap_runner
+  122  ./runner -f traces/week1/short1.rep
+  123  ./bump_test
+  124  python3 driver.py -w1
+  125  clear
+  126  make clean
+  127  make
+  128  ./heap_runner
+  129  ./runner traces/week1/short1.rep
+  130  \make
+  131  make
+  132  python3 driver.py -w1
+  133  make
+  134  clear
+  135  make
+  136  make
+  137  ./heap_runner
+  138  ./runner -f traces/week1/short1.rep
+  139  ./bump_test
+  140  python3 driver.py -w1./heap_runner
+  141  ./runner -f traces/week1/short1.rep
+  142  ./bump_test
+  143  python3 driver.py -w1clear
+  144  ./heap_runner
+  145  ./runner -f traces/week1/short1.rep
+  146  ./bump_test
+  147  python3 driver.py -w1clear
+  148  clear
+  149  ./heap_runner
+  150  ./runner -f traces/week1/short1.rep
+  151  ./bump_test
+  152  python3 driver.py -w1c
+  153  clear
+  154  make
+  155  ./heap_runner
+  156  ./runner -f traces/week1/short1.rep
+  157  ./bump_test
+  158  clear
+  159  make
+  160  python3 driver.py -w1c
+  161  make clean
+  162  makeclear
+  163  clear
+  164  make clean
+  165  make
+  166  python3 driver.py -w1c
+  167  clear
+  168  ./heap_runner
+  169  ./runner -f traces/week1/short1.rep
+  170  ./bump_test
+  171  python3 driver.py -w1
+  172  python3 driver.py -w1
+  173  clear
+  174  python3 driver.py -w1
+  175  git add -A
+  176  git commit -m "test"
+  177  git push
+  178  git add -A
+  179  git commit -m "test"
+  180  git push
+  181  python3 driver.py
+  182  python3 driver.py
+  183  # Basic traces (start here - these are easier)
+  184  ./runner traces/week2/basic/binary.rep
+  185  ./runner traces/week2/basic/binary.rep
+  186  jeffreyl@topaz:~/mm-lab-JeffreyLi-CS$ ./runner traces/week2/basic/binary.rep
+  187  Welcome to the MM lab runner
+  188  Author: Jeffrey Li JL79537
+  189  MM>  
+  190  CLEAR
+  191  clear
+  192  jeffreyl@topaz:~/mm-lab-JeffreyLi-CS$ ./runner traces/week2/basic/binary.rep
+  193  Welcome to the MM lab runner
+  194  Author: Jeffrey Li JL79537
+  195  MM>  
+  196  ./runner -r traces/week2/basic/binary.rep
+  197  clear
+  198  ./runner -r traces/week2/basic/binary.rep
+  199  ./runner -r traces/week2/basic/binary.rep -u
+  200  python3 driver.py
+  201  python3 driver.py
+  202  clear
+  203  python3 driver.py
+  204  ./runner -r traces/week2/basic/amptjp.rep -v
+  205  clear
+  206  ./runner -r traces/week2/basic/amptjp.rep
+  207  make clean && make
+  208  ./runner -r traces/week2/basic/amptjp.rep 2>&1 | tail -20c
+  209  clear
+  210  make clean && make
+  211  ./runner -r traces/week2/basic/amptjp.rep 2>&1 | tail -20clear
+  212  clear
+  213  ./runner -r traces/week2/basic/amptjp.rep 2>&1 | tail -20
+  214  clear
+  215  ./runner -r traces/week2/basic/amptjp.rep 2>&1 | tail -20
+  216  clear
+  217  make clean && make
+  218  ./runner -r traces/week2/basic/amptjp.rep
+  219  clearf
+  220  clear
+  221  make clean && make
+  222  ./runner -r traces/week2/basic/amptjp.rep
+  223  python3 driver.py
+  224  python3 driver.py
+  225  python3 driver.py
+  226  clear
+  227  python3 driver.py
+  228  clear
+  229  python3 driver.py
+  230  python3 driver.py
+  231  git add -a
+  232  git git add -A
+  233  git add -A
+  234  git -m "final test"
+  235  git commit -m "final test"
+  236  git push
+  237  clear
+  238  pwd
+  239  touch ~/.gdbinit
+  240  ls
+  241  ls -a
+  242  echo "set history save on"
+  243  echo "set history save on" > ~/.gdbinit
+  244  cat ~/.gdbinit
+  245  ssh-keygen -t ed25519
+  246  cat /u/jeffreyl/.ssh/id_ed25519.pub
+  247  cd mastery-version-a-master 3
+  248  cd masterytest
+  249  cd "masterytest"
+  250  cd "mastery-version-a-master 3"
+  251  cd "mastery-version-a-master 3"
+  252  cd "mastery-version-a-master 2"
+  253  cd mastery-version-a-master\ 3
+  254  cd mastery-version-a-master\ 2
+  255  ls
+  256  cd ~/Downloads
+  257  ls
+  258  unzip "mastery-version-a-master 3.zip"
+  259  unzip "mastery-version-a-master 2.zip"
+  260  find ~ -name "mastery-version-a-master*.zip" 2>/dev/null
+  261  test
+  262  mkdir demo1
+  263  cd demo1
+  264  ls
+  265  exiut
+  266  exit
+  267  git@github.com:JeffreyLi-CS/test1429.git
+  268  mkdir demo1
+  269  cd demo1
+  270  hel
+  271  bash
+  272  ls
+  273  ls
+  274  ls
+  275  s
+  276  cd ~
+  277  git clone git@github.com:JeffreyLi-CS/test1429.git
+  278  cd test1429
+  279  ls
+  280  jeffreyli@wireless-10-148-180-98 ~ % cd ~/test1429
+  281  cd: no such file or directory: /Users/jeffreyli/test1429
+  282  jeffreyli@wireless-10-148-180-98 ~ % 
+  283  cd ~/test1429
+  284  ls
+  285  find ~ -type d -name "test1429" 2>/dev/null
+  286  cd ~
+  287  git clone git@github.com:JeffreyLi-CS/test1429.git
+  288  cd test1429
+  289  ls
+  290  clear
+  291  touch ~/.gdbinit
+  292  ls
+  293  ls -a
+  294  ls
+  295  clear
+  296  echo "set history save on"
+  297  cat ./gdbinit
+  298  cat ~./gdbinit
+  299  cat ~/.gdbinit
+  300  mkdir demp2
+  301  pwd
+  302  pwd
+  303  mkdir demo3
+  304  pwd
+  305  cd demo3
+  306  pwd
+  307  git clone topaz$ echo "set history save on"
+  308  set history save on
+  309  topaz$ cat ./gdbinit
+  310  cat: ./gdbinit: No such file or directory
+  311  topaz$ cat ~./gdbinit
+  312  cat: '~./gdbinit': No such file or directory
+  313  topaz$ cat ~/.gdbinit
+  314  set history save on
+  315  topaz$ mkdir demp2
+  316  topaz$ pwd
+  317  /u/jeffreyl
+  318  topaz$ pwd
+  319  /u/jeffreyl
+  320  topaz$ mkdir demo3
+  321  topaz$ pwd
+  322  /u/jeffreyl
+  323  topaz$ 
+  324  git clonegit@github.com:JeffreyLi-CS/test1429.gitgit
+  325  git clone git@github.com:JeffreyLi-CS/test1429.git
+  326  Host altair 3.134.10.26
+  327  User <eid>
+  328  IdentityFile ~/.ssh/<eid>_ac_429
+  329  HostName 3.134.10.26Host altair 3.134.10.26
+  330  User <eid>
+  331  IdentityFile ~/.ssh/<eid>_ac_429
+  332  Host altair 3.134.10.26
+  333  User JL79537
+  334  IdentityFile ~/.ssh/JL79537_ac_429
+  335  ~/.ssh/jl79537_ac_429
+  336  exit
+  337  ssh-keygen -t ed25519 -C "jeffreyli@utexas.edu"
+  338  ssh-keygen -t ed25519 -C "jeffreyli2022@gmail.com"
+  339  y
+  340  ssh-keygen -t ed25519 -C "jeffreyli2022@gmail.com"
+  341  ssh-keygen -t ed25519 -C "jl79537@cs.utexas.edu"
+  342  ssh-keygen -t ed25519 -C "jl79537@cs.utexas.edu"
+  343  ssh-keygen -t ed25519 -C "jeffreyli2022@gmail.com"
+  344  cat ~/.ssh/id_ed25519.pub
+  345  ssh -T git@github.com
+  346  git clone git@github.com:CS429-FA2025/se-lab-j.git
+  347  d se-lab-j
+  348  ls
+  349  nano <filename>
+  350  nano se-lab-j
+  351  code se-lab-j
+  352  cd se-lab-j
+  353  ls
+  354  nano README.md
+  355  make
+  356  bin/test-hw
+  357  grep -n "typedef enum alu_op" -R include src
+  358  grep -n "typedef struct x_instr_impl" -R include src
+  359  CLEAR
+  360  clear
+  361  grep -n "typedef enum alu_op" -R include src
+  362  grep -n "typedef struct x_instr_impl" -R include src
+  363  nano include/pipe/instr_pipeline.h
+  364  make
+  365  clear
+  366  make
+  367  bin/test-hw
+  368  make
+  369  clear
+  370  male
+  371  make
+  372  clear
+  373  make
+  374  clear
+  375  make
+  376  bin/test-hw
+  377  make
+  378  bin/test-hw
+  379  make clean
+  380  make
+  381     bin/test-hw
+  382  make
+  383  ls
+  384  cd ~/se-lab-j/src/base
+  385  ls
+  386  make
+  387  bin/test-hw
+  388  clear
+  389  make
+  390  bin/test-hw -a
+  391  MAKE
+  392  make
+  393  bin/test-hw -a
+  394  bin/test-hw 
+  395  git add -a
+  396  git add 
+  397  git add -A
+  398  git commit -m "week1"
+  399  git push
+  400  bin/test-hw 
+  401  git status
+  402  git add src/base/hw_elts.c
+  403  git commit -m "fix alu and regfile"
+  404  git push
+  405  make clean
+  406  make
+  407  bin/test-hw -a
+  408  bin/test-hw 
+  409  make
+  410  make clean
+  411  make clean
+  412  make
+  413  bin/test-hw 
+  414  git add .a
+  415  git add -A
+  416  git commit -m "aaa"
+  417  git push
+  418  ssh keygen -t ed25519
+  419  ssh-keygen -t ed25519
+  420  y
+  421  ssh-keygen -t ed25519
+  422  cat /u/jeffreyl/.ssh/id_ed25519.pub
+  423  cat /u/jeffreyl/.ssh/id_ed25519.pub
+  424  /u/jeffreyl/.ssh/id_ed25519.pub
+  425  cat /u/jeffreyl/.ssh/id_ed25519.pub
+  426  cd
+  427  mkdir demo
+  428  cd demo
+  429  cd
+  430  mkdir demo2
+  431  cd demo2
+  432  pwd
+  433  git clone git@github.com:JeffreyLi-CS/429EXAMPLE.git
+  434  ls
+  435  cd
+  436  ls
+  437  ssh-keygen ed25519
+  438  ls
+  439  cf
+  440  exit
+  441  make
+  442  make trike 
+  443  make trike 
+  444  make
+  445  make trike 
+  446  clear
+  447  make
+  448  make trike
+  449  make trike
+  450  ./bin/orderlogs -f testcases/tiny
+  451  ./bin/orderlogs -f testcases/uneven_new
+  452  ./bin/orderlogs
+  453  ./bin/orderlogs -f testcases
+  454  ./bin/orderlogs -f testcases/
+  455  ls testcases/
+  456  ls testcases
+  457  ./bin/orderlogs -f testcases/tiny
+  458  `git remote -v`
+  459  git remote -v
+  460  gdb ./bin/orderlogs
+  461  make trike
+  462  ./bin/orderlogs -f testcases/tiny
+  463  ./bin/ref_order -f testcases/tiny
+  464  make stego
+  465  gdb ./bin/orderlogs
+  466  make stego
+  467  history > shell_logs.txt
+  468  history > shell_logs.txt
+  469  history > shell_log.txt
+  470  git add reorder.c shell_logs.txt
+  471  git commit -m "Fix merge and find_news bugs"
+  472  git push
+  473  cd ..
+  474  rm -rf 429EXAMPLE
+  475  ssh-keygen ed25519
+  476  ssh-keygen -t ed25519
+  477  cat /u/jeffreyl/.ssh/id_ed25519.pub
+  478  cd demo2
+  479  ls
+  480  cd
+  481  help
+  482  cd
+  483  cd demo2
+  484  pwd
+  485  git clone git@github.com:JeffreyLi-CS/429EXAMPLE.git
+  486  ls
+  487  cd 429EXAMPLE
+  488  bash
+  489  clear
+  490  git clone git@github.com:JeffreyLi-CS/429EXAMPLE.git
+  491  git@github.com:JeffreyLi-CS/429EXAMPLE.git
+  492  cd
+  493  cd ~
+  494  ls
+  495  pwd
+  496  cd ~
+  497  rm -rf 429EXAMPLE
+  498  git clone git@github.com:JeffreyLi-CS/429EXAMPLE.git
+  499  exit
+  500  git remote -v
+  501  .bin/orderlogs
+  502  ./bin/orderlogs
+  503  ./bin/orderlogs
+  504  ./bin/orderlogs -f
+  505  cd
+  506  make trike
+  507  make
+  508  make trike
+  509  cd ~test/2
+  510  cd ~/test2
+  511  make trike
+  512  make trike
+  513  ./bin/orderlogs
+  514  ./bin/orderlogs -f
+  515  ./bin/orderlogs -f testcases
+  516  ./bin/orderlogs -f testcases/tiny
+  517  gdb ./bin/orderlogs
+  518  make trike
+  519  ./bin/orderlogs -f testcases/tiny
+  520  make stego
+  521  make raptor
+  522  make stego
+  523  ./bin/orderlogs -f testcases/all_new
+  524  gdb ./bin/orderlogs
+  525  make
+  526  make trike
+  527  ./bin/orderlogs -f testcases/all_new
+  528  ./bin/orderlogs -f testcases/tiny
+  529  make
+  530  make trike
+  531  ./bin/orderlogs -f testcases/tiny
+  532  make stego
+  533  clear
+  534  make
+  535  make trike
+  536  make stego
+  537  make stego
+  538  make trike
+  539  make stego
+  540  make stego
+  541  make
+  542  make trike
+  543  make stego
+  544  history > shell_logs.txt
